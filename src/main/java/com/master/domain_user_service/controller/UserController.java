@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/api/users/v1")
 @RequiredArgsConstructor
 @Validated
 public class UserController {
